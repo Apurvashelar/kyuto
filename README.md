@@ -12,7 +12,7 @@ D2C e-commerce store for Kyuto — a lifestyle brand selling handcrafted ceramic
 - **Images:** Cloudinary
 - **Email:** Resend
 - **Hosting:** Vercel
-- **Domains:** kyuto.in (primary), kyuto.store (redirects to kyuto.in)
+- **Domains:** kyuto.in
 
 ## Getting Started
 
