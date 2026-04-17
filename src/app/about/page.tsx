@@ -36,20 +36,32 @@ export default function AboutPage() {
   return (
     <div className="bg-gradient-section">
       <section className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
-        <div className="text-center max-w-2xl mx-auto">
-          <p className="font-hand text-xl text-kyuto-pink-600">our story</p>
-          <h1 className="font-heading text-4xl sm:text-5xl text-kyuto-dark mt-2">
-            Thoughtfully made, designed to last
-          </h1>
-          <p className="mt-5 text-kyuto-grey">
-            Kyuto was born from curiosity, built on friendship, and fuelled by a belief that beautiful things deserve a place in every home.
-            Two friends, one gap in the market, and a whole lot of heart - that's how our ceramic journey began at Sarath City Capital Mall,
-            Hyderabad. The overwhelming love from our customers pushed us to dream bigger, and now we're bringing Kyuto to doorsteps across
-            India. Today, we're scaling nationally through our online store, expanding our catalog with scented candles, and continuing to
-            grow a brand our customers genuinely love. </p>
-          <p className="mt-5 text-kyuto-grey">
-            At Kyuto, we don't just sell ceramics - we design the feeling of home.
-          </p>
+        <div className="grid md:grid-cols-2 gap-10 items-center">
+          <div>
+            <p className="font-hand text-xl text-kyuto-pink-600">our story</p>
+            <h1 className="font-heading text-4xl sm:text-5xl text-kyuto-dark mt-2">
+              Thoughtfully made, designed to last
+            </h1>
+            <p className="mt-5 text-kyuto-grey">
+              Kyuto was born from curiosity, built on friendship, and fuelled by a belief that beautiful things deserve a place in every home.
+              Two friends, one gap in the market, and a whole lot of heart - that's how our ceramic journey began at Sarath City Capital Mall,
+              Hyderabad. The overwhelming love from our customers pushed us to dream bigger, and now we're bringing Kyuto to doorsteps across
+              India. Today, we're scaling nationally through our online store, expanding our catalog with scented candles, and continuing to
+              grow a brand our customers genuinely love.
+            </p>
+            <p className="mt-5 text-kyuto-grey">
+              At Kyuto, we don't just sell ceramics - we design the feeling of home.
+            </p>
+          </div>
+          <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-md">
+            <Image
+              src="https://res.cloudinary.com/dtyvqag3h/image/upload/q_auto/f_auto/v1776399316/418cf639-9232-4dc5-856e-eca62ece02c7_hkivsw.jpg"
+              alt="Kyuto founders"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-cover"
+            />
+          </div>
         </div>
 
         <div className="mt-12 grid md:grid-cols-2 gap-6">
